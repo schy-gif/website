@@ -15,6 +15,10 @@ a:visited{
   color: green;
 
 }
+
+a:hover {
+  cursor: pointer;
+  }
 .layout{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
@@ -29,7 +33,7 @@ a:visited{
 
  ul {
   list-style-type: none;
-  text-decoration: none;
+
  }
 
 
@@ -39,30 +43,29 @@ a:visited{
   padding-left: 20px;
    font-family: arial black;
   color: green;
-  font-size: 1.2em;
+   font-size: 1.2em;
+     text-decoration: none;
+      line-height: 1.9;
 
 }
 
 #layout1__s1 img {
   width: 100%;
   cursor: pointer;
+  padding-bottom: 12px;
 }
 #imgbio {
 	position: fixed;
 	width: 20vw;
 }
 
-#layout1__s1:hover {
- /* text-decoration: underline;*/
-  cursor: pointer;
-}
 
 #layout1__s2 {
   left: 16vw;
-  width: 40vw;
+  width: 30vw;
   font-family: arial;
   color: green;
-  padding:30px;
+  padding-top: 30px;
   padding-left: 20px;
   position: absolute;
   font-size: 18px;
@@ -75,36 +78,23 @@ a:visited{
 .BIO{
   text-align: center;
   font-family: arial black;
-  text-transform: uppercase;
-}
-
-.deadline {
-  font-style: italic;
 }
 
 #layout1__s3 {
-  left: 56vw;
-  width: 44vw;
-    font-family: arial;
-  color: green;
-  padding-top: 30px;
-  padding-left: 20px;
+  left: 50vw;
+  width: 30vw;
   position: absolute;
-  font-size: 18px;
-  border-left: 1px solid #A9A9A9;
-  height: 100vh;
 
 }
 
 #layout1__s3 img {
 
-  width: 50vw;
+  width: 55vw;
   position: fixed;
   top: -50vh;
 
 
 }
-
 
 
 .hoverRTC {
@@ -141,8 +131,8 @@ a:visited{
   background: #002f04;
   color: #f7f4ac;
   position: absolute;
-  left: 80vw;
-  width: 30vw;
+  left: 75vw;
+  width: 25vw;
   height: 100vh;
  padding: 30px;
   font-size: 1.8em;
@@ -163,20 +153,15 @@ a:visited{
     display:block;
 }
 
-.prompts{
+.heartsdesire{
 
   /*font-family: arial black;*/
    text-decoration: underline;
     font-size: .98em;
 }
 
-.prompts:hover{
+.heartsdesire:hover{
   text-decoration: none;
   cursor: pointer;
  
 }
- 
- .websites {
-
-  line-height: 150%;
- }
