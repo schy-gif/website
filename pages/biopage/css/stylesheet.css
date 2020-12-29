@@ -12,12 +12,14 @@ body {
 
 a:link, 
 a:visited{
+    text-decoration: none;
   color: green;
 
 }
 
 a:hover {
   cursor: pointer;
+  text-decoration: underline;
   }
 .layout{
    display: grid;
