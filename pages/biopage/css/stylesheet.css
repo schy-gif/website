@@ -104,7 +104,7 @@ a:hover {
 
   grid-row: 1; 
   z-index: 3;
-  background: #672a11;
+  background: green;
   max-width: 100%;
   display: none;
   color: black;
@@ -113,7 +113,7 @@ a:hover {
 
 #img {
   height: 100vh;
-  background: #6a3a00;
+  background: green;
 }
 
 #img1 img{
@@ -128,7 +128,7 @@ a:hover {
 }
 
 #text1{
-  background: #002f04;
+  background: green;
   color: #f7f4ac;
   position: absolute;
   left: 75vw;
