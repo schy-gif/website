@@ -10,15 +10,33 @@ body {
   background: #f7f7f7;
 }
 
-a:link, 
+#layout1__s1 a:link, 
 a:visited{
+    text-decoration: none;
   color: green;
 
 }
 
-a:hover {
+#layout1__s1 a:hover {
   cursor: pointer;
+  text-decoration: underline;
+  
   }
+
+.layout1__s a:link
+{
+  text-decoration: underline;
+    color: green;
+
+
+}
+
+.layout1__s a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  }
+
+
 .layout{
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
@@ -58,10 +76,6 @@ a:hover {
 	width: 20vw;
 }
 
-#layout1__s1:hover {
- /* text-decoration: underline;*/
-  cursor: pointer;
-}
 
 #layout1__s2 {
   left: 16vw;
@@ -80,6 +94,7 @@ a:hover {
 
 .BIO{
   text-align: center;
+  font-size: 1.2em;
   font-family: arial black;
   text-transform: uppercase;
 }
